@@ -16,8 +16,18 @@ void main() {
       title: Text('my first app'),
       centerTitle: true
       ),
-      body: Center(
-      child: Text('my second app)'),
+      body: Row(
+        children:<Widget> [
+          Text("Hello World"),
+          FlatButton(
+            onPressed: (){},
+            color: Colors.lightBlue,
+            child:Text("Fuck yu"),
+          ),
+        ],
+
+
+
       ),
       floatingActionButton: FloatingActionButton(
       onPressed: () {  },
